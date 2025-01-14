@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg"
+    tools:context=".MainPageActivity">
+
+    <Button
+        android:id="@+id/focusPage_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:text="Focus"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/calendar_btn"
+        app:layout_constraintTop_toTopOf="@+id/calendar_btn" />
+
+    <Button
+        android:id="@+id/calendar_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:text="Calendar"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/clock_btn"
+        app:layout_constraintTop_toTopOf="@+id/clock_btn" />
+
+    <Button
+        android:id="@+id/clock_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="372dp"
+        android:layout_marginEnd="252dp"
+        android:text="Clock"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
