@@ -52,9 +52,3 @@ The *ClockProject App* is an Android application designed to integrate seamlessl
 - The quote fetching service ensures efficient and timely retrieval of data using multi-threading.
 - We addead a zip with the project in case it doesn't work
 
----
-
-## GitHub Repository
-[ClockProject GitHub Repository](https://github.com/AnaAdascalitei/Clock_Calendar_Project/tree/main)
-
----
